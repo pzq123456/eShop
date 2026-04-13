@@ -1,0 +1,11 @@
+# 自动检测文本文件并强制使用 LF 换行符
+* text=auto eol=lf
+
+# 明确指定某些后缀的文件使用 LF
+*.js text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+
+# 确保二进制文件（图片、文档等）不被改动
+*.png binary
+*.jpg binary
